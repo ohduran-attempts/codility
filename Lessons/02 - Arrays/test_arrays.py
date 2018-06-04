@@ -1,5 +1,6 @@
 #!environment/bin/python3
 from cyclic_rotation import cyclic_rotation
+from oddoccurrences import odd_occurrences
 import unittest
 
 
@@ -69,6 +70,17 @@ class TestCyclicrotation(unittest.TestCase):
         expected_result = A
 
         self.assertEqual(cyclic_rotation(A, K), expected_result)
+
+
+class TestOddOccurrences(unittest.TestCase):
+    """Test Odd Occurrences algorithm."""
+
+    def test_1(self):
+        """Proposed Test 1."""
+        A = [9, 3, 9, 3, 9, 7, 9]
+        expected_result = 7
+
+        self.assertEqual(odd_occurrences(A), expected_result)
 
 
 if __name__ == '__main__':
