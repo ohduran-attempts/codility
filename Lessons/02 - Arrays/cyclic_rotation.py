@@ -1,3 +1,4 @@
+#!environment/bin/python3
 """
 An array A consisting of N integers is given.
 Rotation of the array means that each element
@@ -13,10 +14,22 @@ and an integer K, returns the array A rotated K times.
 
 
 def cyclic_rotation(A, K):
-    """
-    Assume that:
-
-        N and K are integers within the range [0..100];
-        each element of array A is an integer within the range [−1,000..1,000].
-    """
+    """Cyclic rotation algorithm"""
+    # If len(A) == 0
+    if len(A) == 0:
+        return A
+    # If K == 0
+    if K == 0:
+        return A
+    # If len(A) < 3, it's a matter of whether K is even or not.
+    if len(A) < 3:
+        if K % 2 == 0:
+            return A
+        if K % 2 != 0:
+            return reversed(A)
+    # else
+    for i in range(K):
+        first, *middle, last = A
+        A = last, first, *middle
+        A = list(A)
     return A
