@@ -61,6 +61,14 @@ class TestCyclicrotation(unittest.TestCase):
 
         self.assertEqual(cyclic_rotation(A, K), expected_result)
 
+    def own_test_3(self):
+        """Own Test 3."""
+        A = [1]
+        K = 30
+
+        expected_result = A
+
+        self.assertEqual(cyclic_rotation(A, K), expected_result)
 
 
 if __name__ == '__main__':

@@ -21,13 +21,15 @@ def cyclic_rotation(A, K):
     # If K == 0
     if K == 0:
         return A
-    # If len(A) < 3, it's a matter of whether K is even or not.
-    if len(A) < 3:
+
+    if len(A) == 1:
+        return A
+    if len(A) == 2:
         if K % 2 == 0:
             return A
         if K % 2 != 0:
-            return reversed(A)
-    # else
+            return list(reversed(A))
+
     for i in range(K):
         first, *middle, last = A
         A = last, first, *middle
