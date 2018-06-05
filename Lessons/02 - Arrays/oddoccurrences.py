@@ -1,6 +1,4 @@
 """
-
-
 A non-empty array A consisting of N integers is given.
 The array contains an odd number of elements,
 and each element of the array can be paired
@@ -27,4 +25,12 @@ Complexity:
 
 def odd_occurrences(A):
     """Odd Occurrences algorithm."""
-    return 1
+    # list of unique values
+    uniques = []
+    for a in range(len(A)):
+        if A[a] in uniques:
+            uniques.remove(A[a])
+        elif A[a] not in uniques:
+            uniques.append(A[a])
+    # assume only one of the values in A will remain
+    return uniques[0]
