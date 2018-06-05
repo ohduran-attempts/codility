@@ -82,6 +82,13 @@ class TestOddOccurrences(unittest.TestCase):
 
         self.assertEqual(odd_occurrences(A), expected_result)
 
+    def own_test_1(self):
+        """Own Test 1."""
+        A = [42]
+        expected_result = 42
+
+        self.assertEqual(odd_occurrences(A), expected_result)
+
 
 if __name__ == '__main__':
     unittest.main()
