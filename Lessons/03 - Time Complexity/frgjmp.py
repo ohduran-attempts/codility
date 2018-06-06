@@ -23,5 +23,7 @@ Complexity:
         expected worst-case space complexity is O(1).
 """
 
+
 def frogjump(X, Y, D):
+        """Frog Jump algorithm - O(1)."""
         return (Y - X) // D + 1
