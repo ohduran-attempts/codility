@@ -25,7 +25,7 @@ Complexity:
 """ IMPROVE PERFORMANCE!! """
 
 
-def odd_occurrences(A):
+def odd_occurrences_old(A):
     """Odd Occurrences algorithm."""
     # list of unique values
     uniques = []
@@ -36,3 +36,16 @@ def odd_occurrences(A):
             uniques.append(A[a])
     # assume only one of the values in A will remain
     return uniques[0]
+
+
+def odd_occurrences(A):
+    """Odd Occurrences algorithm."""
+    uniques = {}
+    for item in A:
+        if item not in uniques.keys():
+            uniques[item] = 1
+        else:
+            uniques[item] += 1
+    for key in uniques.keys():
+        if uniques[key] % 2 != 0:
+            return key
