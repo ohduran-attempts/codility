@@ -1,6 +1,7 @@
 import unittest
 import frgjmp
 import permMissingElem
+import tapeEquilibrium
 
 
 class TestFRGJMP(unittest.TestCase):
@@ -40,7 +41,13 @@ class TestPermMissingElem(unittest.TestCase):
 class TestTapeEquilibrium(unittest.TestCase):
     """Test tapeEquilibrium Challenge."""
 
-    pass
+    def test_1(self):
+        """Proposed test 1."""
+        A = [3, 1, 2, 4, 3]
+        # for P = 3, the result is |(3 + 1 + 2) - (2 + 4 + 3)| = 1
+        expected_result = 1
+
+        self.assertEqual(tapeEquilibrium.tapeequilibrium(A), expected_result)
 
 
 if __name__ == '__main__':
