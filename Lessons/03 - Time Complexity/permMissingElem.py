@@ -1,7 +1,8 @@
+#!environment/bin/python3
 """
-
-
-An array A consisting of N different integers is given. The array contains integers in the range [1..(N + 1)], which means that exactly one element is missing.
+An array A consisting of N different integers is given.
+The array contains integers in the range [1..(N + 1)],
+which means that exactly one element is missing.
 
 Your goal is to find that missing element.
 
@@ -28,5 +29,9 @@ Assume that:
 Complexity:
 
         expected worst-case time complexity is O(N);
-        expected worst-case space complexity is O(1) (not counting the storage required for input arguments).
+        expected worst-case space complexity is O(1).
 """
+
+
+def missingelement(A):
+    return [number for number in range(1, len(A) + 2) if number not in A][0]

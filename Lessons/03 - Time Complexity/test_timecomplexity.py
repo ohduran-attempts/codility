@@ -1,5 +1,6 @@
 import unittest
 import frgjmp
+import permMissingElem
 
 
 class TestFRGJMP(unittest.TestCase):
@@ -28,7 +29,12 @@ class TestFRGJMP(unittest.TestCase):
 class TestPermMissingElem(unittest.TestCase):
     """Test permMissingElem Challenge."""
 
-    pass
+    def test_1(self):
+        """Proposed test 1."""
+        A = [2, 3, 1, 5]
+        expected_result = 4
+
+        self.assertEqual(permMissingElem.missingelement(A), expected_result)
 
 
 class TestTapeEquilibrium(unittest.TestCase):
