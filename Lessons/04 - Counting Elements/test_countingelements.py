@@ -13,6 +13,13 @@ class TestFrogRiverOne(unittest.TestCase):
 
         self.assertEqual(frogRiverOne.frogriverone(A, X), expected_result)
 
+    def own_test_1(self):
+        """Own test 1."""
+        A = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        X = 2
+        expected_result = -1
+        self.assertEqual(frogRiverOne.frogriverone(A, X), expected_result)
+
 
 
 if __name__ == '__main__':

@@ -1,4 +1,3 @@
-#environment/bin/python3
 """
 A small frog wants to get to the other side of a river.
 The frog is initially located on one bank of the river (position 0)
@@ -24,6 +23,7 @@ can jump to the other side of the river.
 
 
 def frogriverone(A, X):
+    """Solve frogRiverOne challenge."""
     uniques = range(1, X + 1)
     i = 0
     while len(uniques) > 0 or i < len(A):
