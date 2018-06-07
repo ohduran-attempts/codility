@@ -26,6 +26,14 @@ class TestFRGJMP(unittest.TestCase):
 
         self.assertEqual(frgjmp.frogjump(X=X, Y=Y, D=D), expected_result)
 
+    def own_test_2(self):
+            """Own test 2."""
+            X = 0
+            Y = 40
+            D = 10
+            expected_result = 4
+            self.assertEqual(frgjmp.frogjump(X=X, Y=Y, D=D), expected_result)
+
 
 class TestPermMissingElem(unittest.TestCase):
     """Test permMissingElem Challenge."""

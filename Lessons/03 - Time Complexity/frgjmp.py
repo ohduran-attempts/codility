@@ -26,4 +26,6 @@ Complexity:
 
 def frogjump(X, Y, D):
         """Frog Jump algorithm - O(1)."""
+        if (Y - X) % D == 0:
+                return (Y - X) // D
         return (Y - X) // D + 1
