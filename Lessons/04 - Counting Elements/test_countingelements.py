@@ -2,6 +2,7 @@ import unittest
 import frogRiverOne
 import maxCounters
 import missingInteger
+import permCheck
 
 
 class TestFrogRiverOne(unittest.TestCase):
@@ -69,6 +70,26 @@ class TestMissingInteger(unittest.TestCase):
 
                 self.assertEqual(
                         missingInteger.missinginteger(A), expected_result)
+
+
+class TestPermCheck(unittest.TestCase):
+        """Test permCheck challenge."""
+
+        def test_1(self):
+                """Proposed test 1."""
+                A = [4, 1, 3, 2]
+                expected_result = 1
+
+                self.assertEqual(
+                        permCheck.permcheck(A), expected_result)
+
+        def test_2(self):
+                """Proposed test 2."""
+                A = [4, 1, 3]
+                expected_result = 0
+
+                self.assertEqual(
+                        permCheck.permcheck(A), expected_result)
 
 
 if __name__ == '__main__':
