@@ -1,5 +1,6 @@
 import unittest
 import frogRiverOne
+import maxCounters
 
 
 class TestFrogRiverOne(unittest.TestCase):
@@ -19,6 +20,20 @@ class TestFrogRiverOne(unittest.TestCase):
         X = 2
         expected_result = -1
         self.assertEqual(frogRiverOne.frogriverone(A, X), expected_result)
+
+
+class TestMaxCounters(unittest.TestCase):
+        """Test Max Counters challenge."""
+
+        def test_1(self):
+                """Proposed test 1."""
+                A = [3, 4, 4, 6, 1, 4, 4]
+                N = 5
+                expected_result = [3, 2, 2, 4, 2]
+
+                self.assertEqual(maxCounters.maxcounters(N,A), expected_result)
+
+
 
 
 
