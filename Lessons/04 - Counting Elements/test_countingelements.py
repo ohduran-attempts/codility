@@ -1,6 +1,7 @@
 import unittest
 import frogRiverOne
 import maxCounters
+import missingInteger
 
 
 class TestFrogRiverOne(unittest.TestCase):
@@ -42,7 +43,32 @@ class TestMaxCounters(unittest.TestCase):
                 self.assertEqual(maxCounters.maxcounters(N,A), expected_result)
 
 
+class TestMissingInteger(unittest.TestCase):
+        """Test Missing Integer challenge."""
 
+        def test_1(self):
+                """Proposed test 1."""
+                A = [1, 2, 3]
+                expected_result = 4
+
+                self.assertEqual(
+                        missingInteger.missinginteger(A), expected_result)
+
+        def test_2(self):
+                """Proposed test 2."""
+                A = [1, 3, 6, 4, 1, 2]
+                expected_result = 5
+
+                self.assertEqual(
+                        missingInteger.missinginteger(A), expected_result)
+
+        def test_3(self):
+                """Proposed test 3."""
+                A = [-1, -3]
+                expected_result = 1
+
+                self.assertEqual(
+                        missingInteger.missinginteger(A), expected_result)
 
 
 if __name__ == '__main__':
