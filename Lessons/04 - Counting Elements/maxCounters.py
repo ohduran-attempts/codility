@@ -33,16 +33,14 @@ Complexity:
 
 def maxcounters(N, A):
     """Implement Max Counter Challenge."""
-    counters = [0 for x in range(N)]
+    counters = [0] * N
     max_counter_code = N + 1
     max_value = 0
 
     for operation_code in A:
         if operation_code != max_counter_code:
             counters[operation_code - 1] += 1
-            print(counters)
             max_value = max(max_value, counters[operation_code - 1])
-            print(max_value)
         if operation_code == max_counter_code:
             counters = [max_value] * N
     return counters

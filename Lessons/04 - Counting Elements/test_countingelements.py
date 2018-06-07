@@ -33,6 +33,14 @@ class TestMaxCounters(unittest.TestCase):
 
                 self.assertEqual(maxCounters.maxcounters(N,A), expected_result)
 
+        def own_test_2(self):
+                """Own test 2."""
+                N = 1
+                A = [1, 2, 1, 2]
+                expected_result = [2]
+
+                self.assertEqual(maxCounters.maxcounters(N,A), expected_result)
+
 
 
 
