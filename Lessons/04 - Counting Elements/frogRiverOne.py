@@ -20,7 +20,6 @@ Write a function that, given a non-empty array A
 consisting of N integers and integer X,
 returns the earliest time when the frog
 can jump to the other side of the river.
-
 """
 
 
