@@ -22,9 +22,9 @@ can jump to the other side of the river.
 """
 
 
-def frogriverone(A, X):
+def frogriverone(X, A):
     """Solve frogRiverOne challenge."""
-    uniques = range(1, X + 1)
+    uniques = [x for x in range(1, X + 1)]
     i = 0
     while len(uniques) > 0 or i < len(A):
         if A[i] in uniques:

@@ -33,5 +33,20 @@ Complexity:
 """
 
 
-def missingelement(A):
+def missingelement_old(A):
     return [number for number in range(1, len(A) + 2) if number not in A][0]
+
+
+def missingelement(A):
+    if len(A) == 0:
+        return 1
+    A = sorted(A)
+    missing = 1
+    index = 0
+
+    while index < len(A):
+        if missing != A[index]:
+            return missing
+        missing += 1
+        index += 1
+    return missing
