@@ -38,4 +38,4 @@ def frogriverone(X, A):
         i += 1
     return -1
 
-print(frogriverone(2, [1, 1, 1, 1]))
+print(frogriverone(2, [2, 2, 2, 2, 2]))
