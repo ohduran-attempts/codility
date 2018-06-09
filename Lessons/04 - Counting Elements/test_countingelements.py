@@ -14,14 +14,21 @@ class TestFrogRiverOne(unittest.TestCase):
         X = 5
         expected_result = 6  # the index where all leaves are set
 
-        self.assertEqual(frogRiverOne.frogriverone(A, X), expected_result)
+        self.assertEqual(frogRiverOne.frogriverone(A=A, X=X), expected_result)
 
     def own_test_1(self):
         """Own test 1."""
         A = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
         X = 2
         expected_result = -1
-        self.assertEqual(frogRiverOne.frogriverone(A, X), expected_result)
+        self.assertEqual(frogRiverOne.frogriverone(A=A, X=X), expected_result)
+
+    def own_test_2(self):
+        """Own test 2."""
+        A = [3]
+        X = 5
+        expected_result = -1
+        self.assertEqual(frogRiverOne.frogriverone(X=X, A=A), expected_result)
 
 
 class TestMaxCounters(unittest.TestCase):

@@ -24,12 +24,18 @@ can jump to the other side of the river.
 
 def frogriverone(X, A):
     """Solve frogRiverOne challenge."""
+    if X > max(A):
+        return -1
+    if len(A) == 0:
+        return -1
     uniques = [x for x in range(1, X + 1)]
     i = 0
-    while len(uniques) > 0 or i < len(A):
+    while len(uniques) > 0 and len(uniques) <= i or i < len(A):
         if A[i] in uniques:
             uniques.remove(A[i])
         if len(uniques) == 0:
             return i
         i += 1
     return -1
+
+print(frogriverone(2, [1, 1, 1, 1]))
