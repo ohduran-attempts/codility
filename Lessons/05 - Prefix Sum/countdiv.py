@@ -25,4 +25,4 @@ Complexity:
 """
 
 def countdiv(A, B, K):
-    pass
+    return (B - A) // K + 1
