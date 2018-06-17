@@ -32,71 +32,71 @@ class TestFrogRiverOne(unittest.TestCase):
 
 
 class TestMaxCounters(unittest.TestCase):
-        """Test Max Counters challenge."""
+    """Test Max Counters challenge."""
 
-        def test_1(self):
-                """Proposed test 1."""
-                A = [3, 4, 4, 6, 1, 4, 4]
-                N = 5
-                expected_result = [3, 2, 2, 4, 2]
+    def test_1(self):
+        """Proposed test 1."""
+        A = [3, 4, 4, 6, 1, 4, 4]
+        N = 5
+        expected_result = [3, 2, 2, 4, 2]
 
-                self.assertEqual(maxCounters.maxcounters(N,A), expected_result)
+        self.assertEqual(maxCounters.maxcounters(N, A), expected_result)
 
-        def own_test_2(self):
-                """Own test 2."""
-                N = 1
-                A = [1, 2, 1, 2]
-                expected_result = [2]
+    def own_test_2(self):
+        """Own test 2."""
+        N = 1
+        A = [1, 2, 1, 2]
+        expected_result = [2]
 
-                self.assertEqual(maxCounters.maxcounters(N,A), expected_result)
+        self.assertEqual(maxCounters.maxcounters(N, A), expected_result)
 
 
 class TestMissingInteger(unittest.TestCase):
-        """Test Missing Integer challenge."""
+    """Test Missing Integer challenge."""
 
-        def test_1(self):
-                """Proposed test 1."""
-                A = [1, 2, 3]
-                expected_result = 4
+    def test_1(self):
+        """Proposed test 1."""
+        A = [1, 2, 3]
+        expected_result = 4
 
-                self.assertEqual(
-                        missingInteger.missinginteger(A), expected_result)
+        self.assertEqual(
+            missingInteger.missinginteger(A), expected_result)
 
-        def test_2(self):
-                """Proposed test 2."""
-                A = [1, 3, 6, 4, 1, 2]
-                expected_result = 5
+    def test_2(self):
+        """Proposed test 2."""
+        A = [1, 3, 6, 4, 1, 2]
+        expected_result = 5
 
-                self.assertEqual(
-                        missingInteger.missinginteger(A), expected_result)
+        self.assertEqual(
+            missingInteger.missinginteger(A), expected_result)
 
-        def test_3(self):
-                """Proposed test 3."""
-                A = [-1, -3]
-                expected_result = 1
+    def test_3(self):
+        """Proposed test 3."""
+        A = [-1, -3]
+        expected_result = 1
 
-                self.assertEqual(
-                        missingInteger.missinginteger(A), expected_result)
+        self.assertEqual(
+            missingInteger.missinginteger(A), expected_result)
 
 
 class TestPermCheck(unittest.TestCase):
-        """Test permCheck challenge."""
+    """Test permCheck challenge."""
 
-        def test_1(self):
-                """Proposed test 1."""
-                A = [4, 1, 3, 2]
-                expected_result = 1
+    def test_1(self):
+        """Proposed test 1."""
+        A = [4, 1, 3, 2]
+        expected_result = 1
 
-                self.assertEqual(
-                        permCheck.permcheck(A), expected_result)
+        self.assertEqual(
+            permCheck.permcheck(A), expected_result)
 
-        def test_2(self):
-                """Proposed test 2."""
-                A = [4, 1, 3]
-                expected_result = 0
+    def test_2(self):
+        """Proposed test 2."""
+        A = [4, 1, 3]
+        expected_result = 0
 
-                self.assertEqual(
-                        permCheck.permcheck(A), expected_result)
+        self.assertEqual(
+            permCheck.permcheck(A), expected_result)
 
 
 if __name__ == '__main__':
