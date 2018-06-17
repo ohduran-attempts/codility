@@ -10,12 +10,24 @@ expected worst-case space complexity is O(N)
 """
 
 
-def missinginteger(A):
+def missinginteger_1(A):
     """Missing Integer challenge."""
-    candidates = range(1, len(A) + 1)
+    candidates = [x for x in range(1, len(A) + 1)]
     for number in A:
         if number in candidates:
             candidates.remove(number)
     if len(candidates) > 0:
         return candidates[0]
     return len(A) + 1
+
+def missinginteger(A):
+    candidates = [False] * len(A)
+
+    for i, item in enumerate(A):
+        if not candidates[i - 1]:
+            candidates[i - 1] = True
+
+    for i, bool in enumerate(candidates):
+        if not bool:
+            return i
+    return 1
