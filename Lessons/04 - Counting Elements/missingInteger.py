@@ -21,6 +21,7 @@ def missinginteger_1(A):
     return len(A) + 1
 
 def missinginteger(A):
+    # Indeces are 1 to len(A) - 1... what if they are negative.
     candidates = [False] * len(A)
 
     for i, item in enumerate(A):
