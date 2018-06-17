@@ -22,55 +22,13 @@ can jump to the other side of the river.
 """
 
 
-# def frogriverone(X, A):
-#     """Solve frogRiverOne challenge."""
-#     if len(A) == 0:
-#         return -1
-#
-#     # The list of uniques must be emptied for the frog to pass.
-#     uniques = [x for x in range(1, X + 1)]
-#     i = 0
-#     finished = False
-#
-#     while not finished:
-#         if A[i] in uniques:
-#             uniques.remove(A[i])
-#         if len(uniques) == 0:
-#             return i
-#         i += 1
-#
-#         uniques_is_empty = len(uniques) == 0
-#         i_is_less_than_lenA = i < len(A)
-#         finished = i_is_less_than_lenA and not uniques_is_empty
-#     return -1
-
-def frogriverone_1(X, A):
-    """Frog River One algorithm."""
-
-    uniques = [x for x in range(1, X + 1)]
-    i = 0
-
-    while i < len(A):
-        if A[i] in uniques:
-            uniques.remove(A[i])
-        if len(uniques) == 0:
-            return i
-
-        i += 1
-    return -1
-
 def frogriverone(X, A):
-
-    uniques = []
+    uniques = [False] * X
+    remaining = X
     for i, item in enumerate(A):
-        if item not in uniques and item <= X:
-            uniques.append(item)
-        if len(uniques) == X:
+        if not uniques[item - 1]:
+            uniques[item - 1] = True
+            remaining -= 1
+        if remaining == 0:
             return i
     return -1
-
-
-A = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-X = 2
-
-print(frogriverone(X, A))
