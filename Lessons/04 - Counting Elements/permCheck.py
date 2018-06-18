@@ -4,8 +4,6 @@ A non-empty array A consisting of N integers is given.
 A permutation is a sequence containing each element from 1 to N once,
 and only once.
 
-is not a permutation, because value 2 is missing.
-
 The goal is to check whether array A is a permutation.
 
 Write a function that, given an array A, returns 1 if array A is a permutation and 0 if it is not.
@@ -23,7 +21,7 @@ Complexity:
 """
 
 
-def permcheck(A):
+def permcheck_1(A):
     """Missing Integer challenge."""
     candidates = range(1, len(A) + 1)
     for number in A:
@@ -32,3 +30,17 @@ def permcheck(A):
     if len(candidates) > 0:
         return 0
     return 1
+
+def permcheck(A):
+    candidates = [False] * len(A)
+
+    try:
+        for number in A:
+            if 0 < number <= len(A) and not candidates[number - 1]:
+                candidates[number - 1] = True
+        for boolean in candidates:
+            if not boolean:
+                return 0
+        return 1
+    except Exception:
+        return 0

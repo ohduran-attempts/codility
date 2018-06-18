@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7b19376-3496-4372-920b-83095e6daf32" name="Default" comment="CountDiv tests included">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons/04 - Counting Elements/missingInteger.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/04 - Counting Elements/missingInteger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons/04 - Counting Elements/test_countingelements.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/04 - Counting Elements/test_countingelements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lessons/04 - Counting Elements/permCheck.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/04 - Counting Elements/permCheck.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +15,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="missingInteger.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Lessons/04 - Counting Elements/missingInteger.py">
+          <file leaf-file-name="permCheck.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Lessons/04 - Counting Elements/permCheck.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+                <state relative-caret-position="330">
+                  <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -70,6 +68,7 @@
         <option value="$PROJECT_DIR$/Lessons/04 - Counting Elements/frogRiverOne.py" />
         <option value="$PROJECT_DIR$/Lessons/04 - Counting Elements/test_countingelements.py" />
         <option value="$PROJECT_DIR$/Lessons/04 - Counting Elements/missingInteger.py" />
+        <option value="$PROJECT_DIR$/Lessons/04 - Counting Elements/permCheck.py" />
       </list>
     </option>
   </component>
@@ -87,7 +86,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,6 +108,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -127,7 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_countingelements.TestMissingInteger">
+  <component name="RunManager" selected="Python tests.Unittests for test_countingelements.TestPermCheck">
     <configuration name="missingInteger" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,7 +184,7 @@
       <option name="_new_target" value="&quot;test_countingelements.TestMissingInteger.test_3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests in test_countingelements.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_countingelements.TestPermCheck" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -195,23 +194,23 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Lessons/04 - Counting Elements/test_countingelements.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_countingelements.TestPermCheck&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests in test_countingelements.py" />
       <item itemvalue="Python.missingInteger" />
       <item itemvalue="Python tests.Unittests for test_countingelements.TestMissingInteger.test_3" />
       <item itemvalue="Python tests.Unittests for test_countingelements.TestMissingInteger" />
       <item itemvalue="Python tests.Unittests for test_countingelements.TestMissingInteger.test_1" />
+      <item itemvalue="Python tests.Unittests for test_countingelements.TestPermCheck" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_countingelements.TestPermCheck" />
         <item itemvalue="Python tests.Unittests for test_countingelements.TestMissingInteger" />
         <item itemvalue="Python.missingInteger" />
         <item itemvalue="Python tests.Unittests for test_countingelements.TestMissingInteger.test_1" />
         <item itemvalue="Python tests.Unittests for test_countingelements.TestMissingInteger.test_3" />
-        <item itemvalue="Python tests.Unittests in test_countingelements.py" />
       </list>
     </recent_temporary>
   </component>
@@ -282,11 +281,11 @@
       <window_info content_ui="combo" id="Project" order="1" weight="0.14594193" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.3290938" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.36885247" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.36885247" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32838285" />
       <window_info anchor="bottom" id="Python Console" order="0" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32786885" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32786885" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -404,8 +403,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lessons/04 - Counting Elements/missingInteger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/04 - Counting Elements/permCheck.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
         </state>
       </provider>
     </entry>
