@@ -78,6 +78,13 @@ class TestMissingInteger(unittest.TestCase):
         self.assertEqual(
             missingInteger.missinginteger(A), expected_result)
 
+    def own_test_1(self):
+        """Own test 1"""
+        A = [4, 5, 6, 2]
+        expected_result = 1
+        self.assertEqual(
+            missingInteger.missinginteger(A), expected_result)
+
 
 class TestPermCheck(unittest.TestCase):
     """Test permCheck challenge."""
