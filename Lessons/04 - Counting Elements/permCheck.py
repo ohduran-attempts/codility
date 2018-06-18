@@ -21,16 +21,6 @@ Complexity:
 """
 
 
-def permcheck_1(A):
-    """Missing Integer challenge."""
-    candidates = range(1, len(A) + 1)
-    for number in A:
-        if number in candidates:
-            candidates.remove(number)
-    if len(candidates) > 0:
-        return 0
-    return 1
-
 def permcheck(A):
     candidates = [False] * len(A)
 
