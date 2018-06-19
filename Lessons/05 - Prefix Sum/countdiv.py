@@ -24,5 +24,17 @@ Complexity:
         expected worst-case space complexity is O(1).
 """
 
+
 def countdiv(A, B, K):
-    return (B - A) // K + 1
+    """Count Div algorithm.
+    The initial formula is (B-A) // K.
+    However, if A or B or both are divisible by K, we need to add one more.
+    """
+    if B == 0:
+        return 1
+    Divisors_A = int(A / K)
+    Divisors_B = int(B / K)
+    if A % K == 0:
+        return Divisors_B - Divisors_A + 1
+    else:
+        return Divisors_B - Divisors_A
