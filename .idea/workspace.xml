@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7b19376-3496-4372-920b-83095e6daf32" name="Default" comment="CountDiv tests included">
-      <change beforePath="$PROJECT_DIR$/Lessons/04 - Counting Elements/permCheck.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/04 - Counting Elements/permCheck.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lessons/04 - Counting Elements/maxCounters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/04 - Counting Elements/maxCounters.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,14 +13,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.71650213">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="permCheck.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Lessons/04 - Counting Elements/permCheck.py">
+          <file leaf-file-name="maxCounters.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Lessons/04 - Counting Elements/maxCounters.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+                <state relative-caret-position="211">
+                  <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
                 </state>
               </provider>
             </entry>
@@ -31,8 +32,8 @@
           <file leaf-file-name="test_countingelements.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Lessons/04 - Counting Elements/test_countingelements.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-255">
-                  <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+                <state relative-caret-position="75">
+                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
                   </folding>
@@ -69,13 +70,14 @@
         <option value="$PROJECT_DIR$/Lessons/04 - Counting Elements/test_countingelements.py" />
         <option value="$PROJECT_DIR$/Lessons/04 - Counting Elements/missingInteger.py" />
         <option value="$PROJECT_DIR$/Lessons/04 - Counting Elements/permCheck.py" />
+        <option value="$PROJECT_DIR$/Lessons/04 - Counting Elements/maxCounters.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="506" />
     <option name="y" value="29" />
-    <option name="width" value="743" />
+    <option name="width" value="733" />
     <option name="height" value="739" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -126,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_countingelements.TestPermCheck">
+  <component name="RunManager" selected="Python tests.Unittests in test_countingelements.py">
     <configuration name="missingInteger" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,6 +147,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Unittests for test_countingelements.TestMaxCounters" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/environment/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/04 - Counting Elements" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_countingelements.TestMaxCounters&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
     <configuration name="Unittests for test_countingelements.TestMissingInteger" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,32 +172,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_countingelements.TestMissingInteger&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests for test_countingelements.TestMissingInteger.test_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/04 - Counting Elements" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_countingelements.TestMissingInteger.test_1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests for test_countingelements.TestMissingInteger.test_3" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Codility" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/04 - Counting Elements" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_countingelements.TestMissingInteger.test_3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="Unittests for test_countingelements.TestPermCheck" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -197,20 +187,34 @@
       <option name="_new_target" value="&quot;test_countingelements.TestPermCheck&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
+    <configuration name="Unittests in test_countingelements.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/environment/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/04 - Counting Elements" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Lessons/04 - Counting Elements/test_countingelements.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <list>
       <item itemvalue="Python.missingInteger" />
-      <item itemvalue="Python tests.Unittests for test_countingelements.TestMissingInteger.test_3" />
       <item itemvalue="Python tests.Unittests for test_countingelements.TestMissingInteger" />
-      <item itemvalue="Python tests.Unittests for test_countingelements.TestMissingInteger.test_1" />
       <item itemvalue="Python tests.Unittests for test_countingelements.TestPermCheck" />
+      <item itemvalue="Python tests.Unittests for test_countingelements.TestMaxCounters" />
+      <item itemvalue="Python tests.Unittests in test_countingelements.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in test_countingelements.py" />
+        <item itemvalue="Python tests.Unittests for test_countingelements.TestMaxCounters" />
         <item itemvalue="Python tests.Unittests for test_countingelements.TestPermCheck" />
         <item itemvalue="Python tests.Unittests for test_countingelements.TestMissingInteger" />
         <item itemvalue="Python.missingInteger" />
-        <item itemvalue="Python tests.Unittests for test_countingelements.TestMissingInteger.test_1" />
-        <item itemvalue="Python tests.Unittests for test_countingelements.TestMissingInteger.test_3" />
       </list>
     </recent_temporary>
   </component>
@@ -243,49 +247,49 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_countingelements_TestMissingInteger - 2018.06.18 at 06h 18m 43s.xml">
-      <configuration name="Unittests for test_countingelements.TestMissingInteger" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_countingelements_TestMissingInteger - 2018.06.18 at 06h 19m 35s.xml">
-      <configuration name="Unittests for test_countingelements.TestMissingInteger" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_countingelements_TestMissingInteger - 2018.06.18 at 06h 26m 49s.xml">
-      <configuration name="Unittests for test_countingelements.TestMissingInteger" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_countingelements_TestMissingInteger - 2018.06.18 at 06h 27m 04s.xml">
-      <configuration name="Unittests for test_countingelements.TestMissingInteger" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_countingelements_TestMissingInteger - 2018.06.18 at 06h 27m 49s.xml">
-      <configuration name="Unittests for test_countingelements.TestMissingInteger" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_countingelements_TestMissingInteger - 2018.06.18 at 06h 31m 09s.xml">
-      <configuration name="Unittests for test_countingelements.TestMissingInteger" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_countingelements_TestMissingInteger - 2018.06.18 at 06h 31m 11s.xml">
-      <configuration name="Unittests for test_countingelements.TestMissingInteger" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_countingelements_TestMissingInteger - 2018.06.18 at 06h 31m 13s.xml">
-      <configuration name="Unittests for test_countingelements.TestMissingInteger" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_countingelements_TestMissingInteger - 2018.06.18 at 06h 31m 15s.xml">
       <configuration name="Unittests for test_countingelements.TestMissingInteger" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_for_test_countingelements_TestMissingInteger - 2018.06.18 at 06h 34m 22s.xml">
       <configuration name="Unittests for test_countingelements.TestMissingInteger" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_countingelements_TestPermCheck - 2018.06.18 at 06h 42m 17s.xml">
+      <configuration name="Unittests for test_countingelements.TestPermCheck" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_countingelements_TestPermCheck - 2018.06.19 at 06h 37m 05s.xml">
+      <configuration name="Unittests for test_countingelements.TestPermCheck" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_countingelements_TestPermCheck - 2018.06.19 at 06h 37m 24s.xml">
+      <configuration name="Unittests for test_countingelements.TestPermCheck" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_countingelements_TestPermCheck - 2018.06.19 at 06h 38m 18s.xml">
+      <configuration name="Unittests for test_countingelements.TestPermCheck" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_countingelements_TestPermCheck - 2018.06.19 at 06h 38m 54s.xml">
+      <configuration name="Unittests for test_countingelements.TestPermCheck" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_countingelements_TestMaxCounters - 2018.06.19 at 06h 39m 04s.xml">
+      <configuration name="Unittests for test_countingelements.TestMaxCounters" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_countingelements_py - 2018.06.19 at 06h 39m 16s.xml">
+      <configuration name="Unittests in test_countingelements.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_countingelements_py - 2018.06.19 at 06h 51m 34s.xml">
+      <configuration name="Unittests in test_countingelements.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <frame x="506" y="29" width="733" height="739" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="1" weight="0.14594193" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.3290938" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.36885247" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.37128714" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32838285" />
       <window_info anchor="bottom" id="Python Console" order="0" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32786885" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3267974" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -299,21 +303,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14370811" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32838285" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.36963695" />
-      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Python Console" order="0" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32838285" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.3290938" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32838285" />
+      <window_info anchor="bottom" id="Message" order="4" />
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Python Console" order="0" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -325,6 +329,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="CountDiv tests included" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Lessons/04 - Counting Elements/maxCounters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/04 - Counting Elements/test_countingelements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lessons/04 - Counting Elements/missingInteger.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -391,16 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lessons/04 - Counting Elements/test_countingelements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lessons/04 - Counting Elements/missingInteger.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -408,10 +419,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/04 - Counting Elements/test_countingelements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lessons/04 - Counting Elements/permCheck.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        <state relative-caret-position="141">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/04 - Counting Elements/maxCounters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
         </state>
       </provider>
     </entry>

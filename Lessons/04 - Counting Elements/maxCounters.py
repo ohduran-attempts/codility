@@ -34,13 +34,26 @@ Complexity:
 def maxcounters(N, A):
     """Implement Max Counter Challenge."""
     counters = [0] * N
-    max_counter_code = N + 1
     max_value = 0
+    current_max = 0
 
+    # O(M)
     for operation_code in A:
-        if operation_code != max_counter_code:
+        if 1 <= operation_code <= N:
+            # lazy write
+            if max_value > counters[operation_code - 1]:
+                counters[operation_code - 1] = max_value
             counters[operation_code - 1] += 1
-            max_value = max(max_value, counters[operation_code - 1])
-        if operation_code == max_counter_code:
-            counters = [max_value] * N
+
+            if current_max < counters[operation_code - 1]:
+                current_max = counters[operation_code - 1]
+        else:
+            # update max_value
+            max_value = current_max
+
+    # O(N)
+    for index in range(N):
+        if counters[index] < max_value:
+            counters[index] = max_value
     return counters
+
