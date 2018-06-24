@@ -42,13 +42,14 @@ class TestCountDiv(unittest.TestCase):
                 expected_result = (B - A) // K + 1
                 self.assertEqual(countdiv.countdiv(A, B, K), expected_result)
 
+
 class TestPassingCars(unittest.TestCase):
     """Test passingCars algorithm."""
 
     def test_1(self):
-        A = [0,1,0,1,1]
+        A = [0, 1, 0, 1, 1]
         expected_result = 5
-        self.assertEqual(expected_result, passingcars.passingcars(A) )
+        self.assertEqual(expected_result, passingcars.passingcars(A))
 
 
 if '__name__' == '__main__':

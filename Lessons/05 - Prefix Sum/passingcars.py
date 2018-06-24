@@ -37,4 +37,13 @@ expected worst-case space complexity is O(1) (not counting the storage required 
 
 
 def passingcars(A):
-    return A[0]
+    EAST = 0
+    WEST = 1
+
+    paired_cars = 0
+
+    for index, car in enumerate(A):
+        for second_car in A[index:]:
+            if second_car != car:
+                paired_cars += 1
+    return paired_cars
