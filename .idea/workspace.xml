@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80f06b9b-3e37-4f05-9c25-59ee260d2734" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lessons/05 - Prefix Sum/passingcars.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/05 - Prefix Sum/passingcars.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +18,8 @@
           <file leaf-file-name="passingcars.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Lessons/05 - Prefix Sum/passingcars.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+                <state relative-caret-position="255">
+                  <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
                 </state>
               </provider>
             </entry>
@@ -32,7 +31,7 @@
           <file leaf-file-name="test_prefix_sum.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Lessons/05 - Prefix Sum/test_prefix_sum.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-541">
+                <state relative-caret-position="-340">
                   <caret line="2" selection-start-line="2" selection-end-line="2" />
                   <folding>
                     <element signature="e#0#28#0" expanded="true" />
@@ -151,6 +150,12 @@
     <history-entry file="Unittests_in_test_prefix_sum_py - 2018.06.24 at 14h 38m 16s.xml">
       <configuration name="Unittests in test_prefix_sum.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_prefix_sum_py - 2018.06.24 at 14h 40m 45s.xml">
+      <configuration name="Unittests in test_prefix_sum.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_prefix_sum_py - 2018.06.24 at 14h 45m 04s.xml">
+      <configuration name="Unittests in test_prefix_sum.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
@@ -163,7 +168,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3295082" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -203,7 +208,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lessons/05 - Prefix Sum/test_prefix_sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-541">
+        <state relative-caret-position="-340">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -213,8 +218,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lessons/05 - Prefix Sum/passingcars.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+        <state relative-caret-position="255">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>

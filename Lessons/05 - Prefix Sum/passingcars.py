@@ -38,18 +38,20 @@ expected worst-case space complexity is O(1) (not counting the storage required 
 
 def passingcars(A):
     """
-    We say that a pair of cars (P, Q),
-    P less than Q then less than N, and all bigger than 0, is passing
-    when P is traveling to the east and Q is traveling to the west.
+        We say that a pair of cars (P, Q),
+        P less than Q then less than N, and all bigger than 0, is passing
+        when P is traveling to the east and Q is traveling to the west.
     """
     EAST = 0
     WEST = 1
 
     paired_cars = 0
+    count_easts = 0
 
-    for index in range(len(A) - 1):
-        car = A[index]
-        for second_car in A[index + 1:]:
-            if car == EAST and second_car == WEST:
-                paired_cars += 1
+    for index in range(len(A)):
+        if A[index] == EAST:
+            pass
+            count_easts += 1
+        elif A[index] == WEST:
+            paired_cars += count_easts
     return paired_cars
