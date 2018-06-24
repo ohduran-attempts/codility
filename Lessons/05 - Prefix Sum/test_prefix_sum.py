@@ -1,4 +1,4 @@
-import countdiv, passingcars
+import countdiv, passingcars, DNA
 import unittest
 
 
@@ -50,6 +50,19 @@ class TestPassingCars(unittest.TestCase):
         A = [0, 1, 0, 1, 1]
         expected_result = 5
         self.assertEqual(expected_result, passingcars.passingcars(A))
+
+
+class TestDNA(unittest.TestCase):
+    """Test genomic range query"""
+
+    def test_1(self):
+        S = 'CAGCCTA'
+        P = [2, 5, 0]
+        Q = [4, 5, 6]
+        expected_result = [2, 4, 1]
+
+        self.assertEqual(expected_result, DNA.genomic_range_query(S,P,Q))
+
 
 
 if '__name__' == '__main__':

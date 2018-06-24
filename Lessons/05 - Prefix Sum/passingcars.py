@@ -44,14 +44,16 @@ def passingcars(A):
     """
     EAST = 0
     WEST = 1
+    MAX_PAIRED_CARS = 1000000000
 
     paired_cars = 0
     count_easts = 0
 
     for index in range(len(A)):
         if A[index] == EAST:
-            pass
             count_easts += 1
         elif A[index] == WEST:
             paired_cars += count_easts
+    if paired_cars > MAX_PAIRED_CARS:
+        return -1
     return paired_cars
