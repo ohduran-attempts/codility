@@ -44,10 +44,12 @@ class TestCountDiv(unittest.TestCase):
 
 class TestPassingCars(unittest.TestCase):
     """Test passingCars algorithm."""
-    A = [0,1,0,1,1]
-    expected_result = 5
 
-    self.assertEqual(expected_result, passingcars.passingcars(A) )
+    def test_1(self):
+        A = [0,1,0,1,1]
+        expected_result = 5
+        self.assertEqual(expected_result, passingcars.passingcars(A) )
+
 
 if '__name__' == '__main__':
     unittest.main()
