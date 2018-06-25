@@ -1,7 +1,8 @@
 """
-
-
-A non-empty array A consisting of N integers is given. A pair of integers (P, Q), such that 0 ≤ P < Q < N, is called a slice of array A (notice that the slice contains at least two elements). The average of a slice (P, Q) is the sum of A[P] + A[P + 1] + ... + A[Q] divided by the length of the slice. To be precise, the average equals (A[P] + A[P + 1] + ... + A[Q]) / (Q − P + 1).
+A non-empty array A consisting of N integers is given. A pair of integers (P, Q),
+such that 0 ≤ P < Q < N, is called a slice of array A (notice that the slice contains at least two elements).
+The average of a slice (P, Q) is the sum of A[P] + A[P + 1] + ... + A[Q] divided by the length of the slice.
+To be precise, the average equals (A[P] + A[P + 1] + ... + A[Q]) / (Q − P + 1).
 
 For example, array A such that:
     A[0] = 4
@@ -37,19 +38,36 @@ For example, given array A such that:
 
 the function should return 1, as explained above.
 
-Assume that:
-
-        N is an integer within the range [2..100,000];
-        each element of array A is an integer within the range [−10,000..10,000].
-
 Complexity:
 
         expected worst-case time complexity is O(N);
         expected worst-case space complexity is O(N) (not counting the storage required for input arguments).
-
-
 """
 
 
 def avg_min_two_slices(A):
-    pass
+    length = len(A)
+
+    P = [0] * (length)
+    S = [0] * (length)
+
+    index = length - 1
+
+    while index >= 0:
+        if index < length - 1:
+            P[index] = P[index + 1] + A[index + 1]
+            S[index] = A[index] + A[index + 1]
+
+            if P[index] / (length - index) < min_avg:
+                min_avg = P[index] / (length - index)
+                min_index = index
+
+        elif index == length - 1:
+            P[index] = A[index]
+            S[index] = A[index]
+            min_avg = A[index]
+            min_index = index
+
+        index -= 1
+
+    return min_index
