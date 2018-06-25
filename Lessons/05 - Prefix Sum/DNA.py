@@ -121,8 +121,13 @@ def genomic_range_query(S, P, Q):
 
     result = []
     for index in range(len(P)):
-        for i in range(3):
-            if next_nucl[i][P[index]] is not None and next_nucl[i][P[index]] <= Q[index]:
-                result.append(i + 1)
+        if next_nucl[0][P[index]] is not None and next_nucl[0][P[index]] <= Q[index]:
+            result.append(1)
+        elif next_nucl[1][P[index]] is not None and next_nucl[1][P[index]] <= Q[index]:
+            result.append(2)
+        elif next_nucl[2][P[index]] is not None and next_nucl[2][P[index]] <= Q[index]:
+            result.append(3)
+        else:
+            result.append(4)
 
     return result
