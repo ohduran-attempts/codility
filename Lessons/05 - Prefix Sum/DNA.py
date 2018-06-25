@@ -61,7 +61,7 @@ Complexity:
 """
 
 
-def genomic_range_query(S, P, Q):
+def genomic_range_query1(S, P, Q):
     nucleotids = {
         'A': 1,
         'C': 2,
@@ -80,3 +80,49 @@ def genomic_range_query(S, P, Q):
 
     return genomic_query
 
+
+def genomic_range_query(S, P, Q):
+    """
+    # next_nucl is used to store the position information
+    # next_nucl[0] is about the "A" nucleotides, [1] about "C"
+    #    [2] about "G", and [3] about "T"
+    # next_nucl[i][j] = k means: for the corresponding nucleotides i,
+    #    at position j, the next corresponding nucleotides appears
+    #    at position k (including j)
+    # k == -1 means: the next corresponding nucleotides does not exist
+    """
+
+    nucleotids = {
+        'A': 1,
+        'C': 2,
+        'G': 3,
+        'T': 4,
+    }
+    impact = [nucleotids[char] for char in S]  # O(N) so far
+
+    sequence_length = len(S)
+
+    # Next nucleotid list of lists:
+    # Value in [i][j] is the next same nucleotid i appearing after j.
+    # None means no nucleotid.
+    next_nucl = [[None] * sequence_length,
+                 [None] * sequence_length,
+                 [None] * sequence_length,
+                 [None] * sequence_length,
+                 ]
+
+    next_nucl[nucleotids[S[-1]] - 1][-1] = sequence_length - 1
+
+    for index in range(sequence_length - 2, -1, -1):
+        for i in range(4):
+            next_nucl[i][index] = next_nucl[i][index + 1]
+
+        next_nucl[nucleotids[S[index]] - 1][index] = index
+
+    result = []
+    for index in range(len(P)):
+        for i in range(3):
+            if next_nucl[i][P[index]] is not None and next_nucl[i][P[index]] <= Q[index]:
+                result.append(i + 1)
+
+    return result

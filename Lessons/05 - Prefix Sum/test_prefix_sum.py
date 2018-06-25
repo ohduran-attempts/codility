@@ -61,8 +61,7 @@ class TestDNA(unittest.TestCase):
         Q = [4, 5, 6]
         expected_result = [2, 4, 1]
 
-        self.assertEqual(expected_result, DNA.genomic_range_query(S,P,Q))
-
+        self.assertEqual(expected_result, DNA.genomic_range_query(S, P, Q))
 
 
 if '__name__' == '__main__':
