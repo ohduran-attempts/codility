@@ -1,4 +1,4 @@
-import countdiv, passingcars, DNA
+import countdiv, passingcars, DNA, minavg
 import unittest
 
 
@@ -62,6 +62,16 @@ class TestDNA(unittest.TestCase):
         expected_result = [2, 4, 1]
 
         self.assertEqual(expected_result, DNA.genomic_range_query(S, P, Q))
+
+
+class TestAvgMinTwoSlices(unittest.TestCase):
+    """Test AvgMin2Slices algorithm."""
+
+    def test_1(self):
+        A = [4, 2, 2, 5, 1, 5, 8]
+        expected_result = 1
+
+        self.assertEqual(expected_result, minavg.avg_min_two_slices(A))
 
 
 if '__name__' == '__main__':
