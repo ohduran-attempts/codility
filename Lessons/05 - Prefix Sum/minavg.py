@@ -45,7 +45,7 @@ Complexity:
 """
 
 
-def avg_min_two_slices(A):
+def avg_min_two_slices1(A):
     length = len(A)
 
     P = [0] * (length)
@@ -71,3 +71,32 @@ def avg_min_two_slices(A):
         index -= 1
 
     return min_index
+
+
+def avg_min_two_slices(A):
+    """
+    Every slice must be of size 2 or 3, otherwise the optimal slice
+    is of size 2 or 3 within that slice.
+
+    given that items in A are always 10,000 or less,
+    we implment a min_value of 10,0001 that will be override,
+    and reach out to the minimum value of average in slices of
+    length 2 or 3.
+    """
+    min_index = 0
+    min_value = 10001
+
+    for index in range(len(A) - 1):
+
+        if (A[index] + A[index + 1]) / 2 < min_value:
+
+            min_index = index
+            min_value = (A[index] + A[index + 1]) / 2
+
+        if index < len(A) - 2 and (A[index] + A[index + 1] + A[index + 2]) / 3 < min_value:
+
+            min_index = index
+            min_value = (A[index] + A[index + 1] + A[index + 2]) / 3
+
+    return min_index
+
