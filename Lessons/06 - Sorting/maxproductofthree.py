@@ -46,5 +46,10 @@ Complexity:
         expected worst-case space complexity is O(1) (not counting the storage required for input arguments).
 """
 
+
 def maxproduct_ofthree(A):
-    pass
+    sorted_A = sorted(A, reverse=True)
+    result = 1
+    for i in range(3):
+        result *= sorted_A[i]
+    return result
