@@ -48,8 +48,13 @@ Complexity:
 
 
 def maxproduct_ofthree(A):
-    sorted_A = sorted(A, reverse=True)
-    result = 1
-    for i in range(3):
-        result *= sorted_A[i]
-    return result
+    pass
+    result_obvious = 1
+    result_negatives = 1
+
+    for item in A:
+        pass
+
+
+A = [-3, 1, 2, -2, 5, 6]
+print(maxproduct_ofthree(A))

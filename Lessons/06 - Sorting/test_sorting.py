@@ -13,6 +13,13 @@ class TestMaxProductOfThree(unittest.TestCase):
 
         self.assertEqual(expected_result, maxproductofthree.maxproduct_ofthree(A))
 
+    def test_2(self):
+        """Test 2"""
+        A = [-5, 5, -5, 4]
+        expected_result = 125
+
+        self.assertEqual(expected_result, maxproductofthree.maxproduct_ofthree(A))
+
 
 if __name__ == '__main__':
     unittest.main()

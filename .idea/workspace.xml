@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80f06b9b-3e37-4f05-9c25-59ee260d2734" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lessons/06 - Sorting/maxproductofthree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/06 - Sorting/maxproductofthree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lessons/06 - Sorting/test_sorting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/06 - Sorting/test_sorting.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +19,8 @@
           <file leaf-file-name="maxproductofthree.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Lessons/06 - Sorting/maxproductofthree.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+                <state relative-caret-position="249">
+                  <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -32,8 +32,8 @@
           <file leaf-file-name="test_sorting.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Lessons/06 - Sorting/test_sorting.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+                <state relative-caret-position="150">
+                  <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="32" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
                   </folding>
@@ -122,7 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_sorting.py">
+  <component name="RunManager" selected="Python.maxproductofthree">
     <configuration name="DNA" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Codility" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,6 +136,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/05 - Prefix Sum/DNA.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="maxproductofthree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Codility" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/06 - Sorting" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/06 - Sorting/maxproductofthree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,11 +203,13 @@
       <item itemvalue="Python tests.Unittests for test_prefix_sum.TestDNA.test_1" />
       <item itemvalue="Python.DNA" />
       <item itemvalue="Python tests.Unittests in test_sorting.py" />
+      <item itemvalue="Python.maxproductofthree" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in test_sorting.py" />
+        <item itemvalue="Python.maxproductofthree" />
         <item itemvalue="Python tests.Unittests in test_prefix_sum.py" />
+        <item itemvalue="Python tests.Unittests in test_sorting.py" />
         <item itemvalue="Python.DNA" />
         <item itemvalue="Python tests.Unittests for test_prefix_sum.TestDNA.test_1" />
       </list>
@@ -209,24 +229,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_prefix_sum_py - 2018.06.25 at 07h 15m 02s.xml">
-      <configuration name="Unittests in test_prefix_sum.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_prefix_sum_py - 2018.06.26 at 07h 22m 58s.xml">
-      <configuration name="Unittests in test_prefix_sum.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_prefix_sum_py - 2018.06.26 at 07h 37m 05s.xml">
-      <configuration name="Unittests in test_prefix_sum.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_sorting_py - 2018.06.27 at 07h 22m 32s.xml">
-      <configuration name="Unittests in test_sorting.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_sorting_py - 2018.06.27 at 07h 22m 58s.xml">
-      <configuration name="Unittests in test_sorting.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_sorting_py - 2018.06.27 at 07h 23m 11s.xml">
-      <configuration name="Unittests in test_sorting.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_sorting_py - 2018.06.27 at 07h 23m 34s.xml">
       <configuration name="Unittests in test_sorting.py" configurationId="tests" />
     </history-entry>
@@ -238,6 +240,24 @@
     </history-entry>
     <history-entry file="Unittests_in_test_sorting_py - 2018.06.27 at 07h 25m 43s.xml">
       <configuration name="Unittests in test_sorting.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_sorting_py - 2018.06.27 at 07h 26m 22s.xml">
+      <configuration name="Unittests in test_sorting.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_sorting_py - 2018.06.27 at 07h 26m 39s.xml">
+      <configuration name="Unittests in test_sorting.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_sorting_py - 2018.06.27 at 07h 32m 10s.xml">
+      <configuration name="Unittests in test_sorting.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_sorting_py - 2018.06.27 at 07h 32m 29s.xml">
+      <configuration name="Unittests in test_sorting.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_sorting_py - 2018.06.27 at 07h 32m 58s.xml">
+      <configuration name="Unittests in test_sorting.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_prefix_sum_py - 2018.06.27 at 07h 39m 26s.xml">
+      <configuration name="Unittests in test_prefix_sum.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -396,8 +416,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lessons/06 - Sorting/test_sorting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="150">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="32" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -406,8 +426,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lessons/06 - Sorting/maxproductofthree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+        <state relative-caret-position="249">
+          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
         </state>
       </provider>
     </entry>
